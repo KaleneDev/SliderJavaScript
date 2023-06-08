@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "sass": "^1.63.2"
+    },
+    "scripts": {
+        "sass": "node-sass --watch scss/ --output dist/css/ --recursive"
+    },
+    "name": "Slider",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "node-sass": "^9.0.0"
+    }
+}

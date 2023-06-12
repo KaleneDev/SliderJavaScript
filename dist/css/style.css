@@ -21,17 +21,20 @@ section {
   display: flex;
   width: 100%;
   height: 100%;
-  transition: transform 0.35s ease-in-out; }
+  transition: all 0.2s ease-in; }
 
 .slide {
-  margin: 8px;
-  background-color: red;
+  padding: 0.5rem;
   flex-shrink: 0;
   min-width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 100%; }
+  .slide div {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; }
 
 .prev-btn,
 .next-btn {

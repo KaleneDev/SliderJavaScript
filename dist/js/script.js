@@ -19,7 +19,7 @@ const slider = (minWidth) => {
 
         const slideWidthUp = () => {
             slides.forEach((slide) => {
-                slide.style.minWidth = `${newSlideWidth - 16}px`;
+                slide.style.minWidth = `${newSlideWidth}px`;
             });
         };
         slideWidthUp();
@@ -40,7 +40,7 @@ const slider = (minWidth) => {
         // Fonction pour déplacer les slides
         function goToSlide(index) {
             slidesContainer[i].style.transform = `translateX(-${
-                (newSlideWidth - 16) * index
+                newSlideWidth * index
             }px)`;
         }
 
